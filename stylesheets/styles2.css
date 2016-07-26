@@ -292,6 +292,11 @@ section{
 }
 /* FIN ESTILOS CONTENEDOR 10 */
 /* EXTRAS // FINAL DE PÁGINA */
+#contenedorextra{
+	padding: 0 10%;
+	margin-top: -3%;
+	overflow: auto;
+}
 #gracias{
 	text-align: center;
 }
@@ -329,6 +334,7 @@ ul.share-buttons li{
 	margin: auto;
 	text-align: center;
 	width: 25%;
+	padding-top: 2%;
 }
 #comparte2{
 	line-height: 40px;
