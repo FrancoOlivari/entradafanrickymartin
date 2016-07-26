@@ -1,0 +1,476 @@
+/* -- RESETS -- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: white;
+	margin: 0;
+}
+h4{
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 400;
+}
+h2, h1{
+	font-size: 40px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+p{
+	font-size: 18px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+.tarjetas{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.camiones{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.cleaner{
+	clear: both;
+}
+/* --------------- */
+/* ESTILOS CONTENEDOR 1 */
+section{
+	margin-top: 0;
+	padding: 3.5% 10% 3.5%;
+	/* AUMENTAR EL SIGUIENTE PADDING A MEDIDA QUE SE NECESITE AUMENTAR EL TAMAÑO DEL CONTENEDOR */
+	background: url("../images/rickytop.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 50% 5%;
+	height: 100%;
+	overflow: auto;
+}
+#contenedor1 h1{
+	color: white;
+	text-align: center;
+	margin-top: 1%;
+}
+#tablaventas{
+	margin-top: 5%;
+}
+/* ESTILOS DE LA TABLA */
+.semi-title{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: #e5332a;
+    font-weight: 600;
+}
+/* ------------------- */
+/* FIN ESTILOS CONTENEDOR 1 */
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+#contenedorshare{
+	padding: 2% 0;
+	float: right;
+	width: 30%;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 20px;
+}
+#comparte1{
+	float: left;
+	display: inline;
+	margin-right: 3%;
+	margin-top: 2.5%;
+	font-weight: 300;
+}
+/* -------------------------------------------------- */
+/* ESTILOS CONTENEDOR 2*/
+#framespotify{
+	margin-left: 15.5%;
+}
+#contenedor2{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor2 h3{
+	font-size: 20px;
+	color: rgb(16, 101, 140);
+	font-weight: 600;
+}
+#contenedor2 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#imagen1{
+	text-align: center;
+	padding: 2% 0 3%;
+	width: 100%;
+}
+#letragrandeyazul{
+	font-size: 17px;
+	color: rgb(16, 101, 140);
+	line-height: 2.5;
+}
+#bold{
+	font-weight: bold;
+}
+/* FIN ESTILOS CONTENEDOR 2 */
+/* DISPOCISION DE COLUMNAS */
+.columnas1{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 1%;
+}
+/* ---------------------- */
+/* ESTILOS CONTENEDOR 3 */
+#contenedor3{
+	display: block;
+	margin: 0;
+	padding: 1.5% 17.5% 2%;
+	background-color: rgb(40, 212, 194);
+	color: white;
+	font-family: 'Open Sans', Sans-Serif;
+	text-align: center;
+	overflow: auto;
+}
+#contenedor3 p{
+	font-style: italic;
+	padding-bottom: 1%;
+}
+#estrellasvg{
+	width: 25%;
+	margin: auto;
+	padding: 3% 0;
+}
+/* FIN ESTILOS CONTENEDOR 3 */
+/* ESTILOS CONTENEDOR 4 */
+#contenedor4{
+	display: block;
+	margin: 0;
+	padding: 3% 17.5%;
+}
+#contenedor4 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	margin: 0;
+	padding: 1.5% 0 3%;
+}
+#contenedor4 h2{
+	text-align: center;
+	color: rgb(233, 95, 88);
+	margin-top: -1%;
+}
+#worldsvg{
+	padding-top: 2%;
+	width: 30%;
+	margin: auto;
+}
+#separacion{
+	visibility: hidden;
+}
+/* FIN ESTILOS CONTENEDOR 4 */
+/* ESTILOS CONTENEDOR 5 */
+#contenedor5{
+	background-color: rgb(47, 163, 217);
+	background-position: 10% 50%;
+	background-size: cover;
+	overflow: auto;
+	padding-bottom: 2%;
+}
+#contenedor5 h2{
+	font-size: 50px;
+	padding-top: 2%;
+	padding-bottom: 2.5%;
+	color: white;
+	text-align: center;
+}
+#video{
+	padding: 0% 17.5% 3%;
+}
+#video1{
+	width: 100%;
+	height: 480px;
+}
+/* FIN ESTILOS CONTENEDOR 6 */
+/* ESTILOS CONTENEDOR 6 */
+/* --- ESTE CONTENEDOR ABARCA LOS ESTILOS DEL (Y) CONTENEDOR 6 --- */
+#contenedor6{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor6 p{
+	font-size: 15px;
+	color: white;
+}
+/* FIN ESTILOS CONTENEDOR 6 */
+/* ESTILOS CONTENEDOR 7 */
+#contenedor7{
+	margin: auto;
+	padding: 0 17.5%;
+}
+#contenedor7 h3{
+	font-size: 40px;
+	color: rgb(47, 163, 217);
+	text-align: center;
+	padding: 1.5% 0 2%;
+}
+#contenedor7 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#rickymic{
+	width: 80%;
+	text-align: center
+}
+/* FIN ESTILOS CONTENEDOR 7 */
+/* ESTILOS CONTENEDOR 8 */
+#contenedor8{
+	background-color: rgb(233, 95, 88);
+	background-position: 10% 50%;
+	background-size: cover;
+	overflow: auto;
+}
+#contenedor8 h2{
+	font-size: 50px;
+	padding-top: 2%;
+	padding-bottom: 2.5%;
+	color: white;
+	text-align: center;
+}
+#contenedortxt8{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedortxt8 p{
+	padding: 3% 0 2%;
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#corazonsvg{
+	padding-top: 2%;
+	width: 35%;
+	margin: auto;
+}
+/* FIN ESTILOS CONTENEDOR 8 */
+/* ESTILOS CONTENEDOR 9 */
+#contenedor9{
+	display: block;
+	margin: 0;
+	padding: 3% 17.5% 0;
+}
+#contenedor9 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	margin: 0;
+	padding: 1.5% 0 1.5%;
+}
+#contenedor9 h2{
+	text-align: center;
+	color: rgb(233, 95, 88);
+	margin-top: -1%;
+}
+/* FIN ESTILOS CONTENEDOR 9 */
+/* ESTILOS CONTENEDOR 10 */
+#contenedor10{
+	display: block;
+	margin: 0;
+	text-align: center;
+}
+#mapaseparacion{
+	padding: 1%;
+}
+#mapasize{
+	width: 80%;
+	height: 450px;
+	margin-bottom: 2%;
+}
+/* FIN ESTILOS CONTENEDOR 10 */
+/* EXTRAS // FINAL DE PÁGINA */
+#gracias{
+	text-align: center;
+}
+#graciassvg{
+	display: inline;
+	width: 40%;
+	padding-bottom: 3%;
+}
+#pngcards{
+    width: 100%;
+    height: 105px;
+    background: url('http://www.entradafan.com.ar/VistasNew/images/png/sprite_png.png') -72px -95px;
+    background-repeat: no-repeat;
+    border-top: 1px dashed #6B6F79;
+    border-bottom: 1px dashed #6B6F79;
+}
+.invisible{
+	display: none;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+}
+ul.share-buttons li{
+	display: inline;
+}
+#primerboton{
+	margin-right: 1.5%;
+}
+#contenedorshare2{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+}
+#comparte2{
+	line-height: 40px;
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+@media (max-width: 430px){
+/* ESTILOS CONTENEDOR 1 */
+	#contenedor1{
+		padding: 3.5% 10% 3.5%;
+	}
+	#contenedor1 h1{
+		color: white;
+		text-align: center;
+	}
+	#tablaventas{
+		margin-top: 5%;
+		width: 80%;
+	}
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+	#contenedorshare{
+		float: right;
+		width: 70%;
+		padding-right: 0;
+	}
+	#comparte1{
+		float: left;
+		display: inline;
+		margin-top: 2.5%;
+		font-size: 15px;
+	}
+/* ESTILOS CONTENEDOR 2*/
+	#framespotify{
+		margin-left: 0;
+	}
+	#tamañospotify{
+		width: 100%;
+	}
+	#contenedor2{
+		display: block;
+		margin: 0;
+		padding: 3% 5%;
+	}
+	#contenedor2 h3{
+		font-size: 20px;
+		color: rgb(233, 95, 88);
+		font-weight: 600;
+	}
+	#contenedor2 p{
+		font-size: 15px;
+		color: rgb(150, 150, 150);
+	}
+	#imagen1{
+		text-align: center;
+		padding: 2% 0 3%;
+		width: 100%;
+	}
+/* DISPOCISION DE LAS COLUMNAS */
+	.columnas1{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+/* ESTILOS CONTENEDOR 3 */
+	#contenedor3{
+		padding: 2% 5%;
+	}
+	#estrellasvg{
+		width: 40%;
+	}
+/* ESTILOS CONTENEDOR 4 */
+	#contenedor4{
+		padding: 3% 5%;
+	}
+	#worldsvg{
+		width: 70%;
+		margin: auto;
+	}
+/* ESTILOS CONTENEDOR 5 */
+	#contenedor5{
+		padding: 0 5%;
+	}
+/* ESTILOS CONTENEDOR 6 */
+	#contenedor6{
+		padding: 0;
+		text-align: center;
+		color: rgb(150, 150, 150);
+		font-family: 'Open Sans', Sans-Serif;
+	}
+	#contenedor6 p{
+		color: white;
+	}
+	#video{
+		padding: 0% 0% 3%;
+	}
+	#video1{
+		width: 100%;
+		height: 340px;
+	}
+/* ESTILOS CONTENEDOR 7 */
+/* --- ESTE CONTENEDOR ABARCA LOS ESTILOS DEL (Y) CONTENEDOR 6 --- */
+	#contenedor7{
+		padding: 0 5%;
+	}
+	#contenedor7 p{
+		font-size: 15px;
+		color: rgb(150 150 150);
+	}
+	#rickymic{
+		width: 80%;
+		margin-left: 10%;
+	}
+	#invisible{
+		display: none;
+	}
+/* ESTILOS CONTENEDOR 8 */
+	#contenedor8, #contenedortxt8{
+		padding: 0 5%;
+	}
+	#corazonsvg{
+		padding-top: 2%;
+		width: 60%;
+		margin: auto;
+		padding-bottom: 10%;
+	}
+/* ESTILOS CONTENEDOR 9 */
+	#contenedor9{
+		padding: 0 5%;
+	}
+/* ESTILOS RESTO */
+	#contenedorshare2{
+		margin: auto;
+		text-align: center;
+		width: 80%;
+	}
+	#graciassvg{
+		display: inline;
+		width: 100%;
+		padding-bottom: 3%;
+	}
+};
